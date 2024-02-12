@@ -72,8 +72,8 @@ Contributions are welcome! If you'd like to contribute to the Automated Material
 ## Credits
 This project Kibhoret for Automated Material Flow Management was created by:
 1. Shadrack Koech - [Github](https://github.com/Shadkoech) / [Twitter](https://twitter.com/Shad_Koech)
-2. 
-3. 
+2. Jukunye Shira - [Github](https://github.com/jukunye) / [Twitter](https://twitter.com/jucunye) 
+3. Joseph Kibuchi - [Github](https://github.com/kibuchijw) / [Twitter](https://twitter.com/QUxPTA)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
