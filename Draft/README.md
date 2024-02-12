@@ -9,7 +9,7 @@ This web app enables users to efficiently track trucks with material payload as 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
+- [Database](#database)
 - [Features](#features)
 - [Contributing](#contributing)
 - [Credits](#credits)
@@ -43,17 +43,23 @@ To install the Automated Material Flow Management System;
    - **Weighbridge Out**: Record final weight of trucks at the weighbridge.
 
 
+## Database
+The project Kibhoret utilizes PostgreSQL as its database management system. PostgreSQL is a powerful, open-source relational database that provides robust features and performance for handling data storage and retrieval.
 
+### Why PostgreSQL?
+- **Reliability**: PostgreSQL is trusted for its consistency, reliability and data integrity, making it suitable and important for this project
+- **Scalability**: PostgreSQL can expand as needed to accommodate the increasing demands of any given application. This in turn ensures that it can handle more users, data, and their operations without slowing down.
+- **Advanced Features**: PostgreSQL supports advanced features such as JSONB data type, full-text search, and advanced indexing options among others
+- **Community Support**: With a large and active community, PostgreSQL receives regular updates, security patches, and community-driven extensions.
 
-## Configuration
-The Automated Material Flow Management System can be configured by modifying the settings in the `config.py` file. Additionally, environment variables can be set for sensitive information such as database credentials and secret keys.
+The use of PostgreSQL in the project ensures data consistency, performance, and reliability, providing a solid foundation for managing material flow within the organization.
 
 ## Features
-- Streamlined material flow management process.
-- Real-time tracking of trucks and materials.
-- User-friendly dashboards for data entry and monitoring.
+- Streamlined material flow management process through the organization from truck entry to gate exit.
+- Real-time tracking of trucks and material payload.
+- User-friendly dashboards for data entry and monitoring in different organization department.
 - Integration with Django's authentication system for user management.
-- Customizable configurations to suit different company needs.
+- Allows easy customizable configurations to suit different company needs.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to the Automated Material Flow Management System, please follow these guidelines:
@@ -64,7 +70,10 @@ Contributions are welcome! If you'd like to contribute to the Automated Material
 - Submit a pull request detailing your changes.
 
 ## Credits
-The Automated Material Flow Management System was created by [Your Name]. Special thanks to the Django community for providing excellent documentation and resources.
+This project Kibhoret for Automated Material Flow Management was created by:
+1. Shadrack Koech - [Github](https://github.com/Shadkoech) / [Twitter](https://twitter.com/Shad_Koech)
+2. 
+3. 
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
