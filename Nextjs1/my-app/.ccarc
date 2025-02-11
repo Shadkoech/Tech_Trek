@@ -1,0 +1,8 @@
+{
+  "type": "function",
+  "path": "components",
+  "styles": "css",
+  "withTest": false,
+  "withStory": false
+}
+
